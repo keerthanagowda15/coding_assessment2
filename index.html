@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="product">
+      <div class="product-details">
+        <h2 id="product-title">Product Title</h2>
+        <p id="product-vendor">Product Vendor</p>
+        <p id="price">Price: $0000</p>
+        <p id="compare-at-price">Compare at: $0000</p>
+        <p id="percentage-off">Percentage off: 25%</p>
+        <img id="product-image" src="c:\Users\Keerthana\Downloads\dress.htm" alt="Product Image">
+        <div class="thumbnails" id="thumbnail-container">
+          <!-- Thumbnails will be dynamically added here -->
+        </div>
+        <select id="color-selector">
+          <option value="red">Red</option>
+          <option value="blue">Blue</option>
+          <!-- Add other color options -->
+        </select>
+        <select id="size-selector">
+          <option value="small">Small</option>
+          <option value="medium">Medium</option>
+          <!-- Add other size options -->
+        </select>
+        <input type="number" id="quantity-selector" value="1" min="1">
+        <button id="add-to-cart-btn">Add to Cart</button>
+        <p id="description">Product Description</p>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
